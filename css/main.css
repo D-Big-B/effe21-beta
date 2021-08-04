@@ -224,10 +224,13 @@ img {
 }
 .sponsor-card {
   background-color: aqua;
+  border: 5px solid red;
   height: 200px;
   width: 100%;
-  border: 5px solid red;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sponsor-card:nth-child(1) {
@@ -239,12 +242,12 @@ img {
   width: 150px;
 }
 .sponsor-name {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #fefefe;
 }
 .sponsor-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #b3b6bc;
 }
 @media only screen and (min-width: 1200px) {
